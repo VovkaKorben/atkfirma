@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atkfirma Oy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f8fb;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(90deg, #1976d2 60%, #43a047 100%);
+            color: #fff;
+            padding: 2rem 0 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        nav {
+            background: #43a047;
+            text-align: center;
+            padding: 0.75rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: text-shadow 0.2s;
+        }
+        nav a:hover {
+            text-shadow: 0 2px 8px #1976d2;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(67, 160, 71, 0.08);
+            padding: 2rem;
+        }
+        h2 {
+            color: #1976d2;
+            margin-top: 0;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .feature {
+            flex: 1 1 250px;
+            background: #e3f2fd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.05);
+            text-align: center;
+        }
+        .feature h3 {
+            color: #43a047;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #1976d2;
+            color: #fff;
+            margin-top: 3rem;
+            border-radius: 0 0 12px 12px;
+        }
+        @media (max-width: 700px) {
+            .features {
+                flex-direction: column;
+            }
+            main {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Atkfirma Oy</h1>
+        <p>Modern IT Solutions for Your Business</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2>Welcome to Atkfirma Oy</h2>
+        <p>
+            Atkfirma Oy provides reliable and innovative IT services for companies of all sizes. 
+            Our experienced team ensures your business stays ahead with the latest technology.
+        </p>
+        <div class="features">
+            <div class="feature">
+                <h3>IT Consulting</h3>
+                <p>Expert advice to optimize your IT infrastructure and processes.</p>
+            </div>
+            <div class="feature">
+                <h3>Cloud Solutions</h3>
+                <p>Secure and scalable cloud services tailored to your needs.</p>
+            </div>
+            <div class="feature">
+                <h3>Support & Maintenance</h3>
+                <p>Fast and friendly support to keep your business running smoothly.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Atkfirma Oy &mdash; All rights
